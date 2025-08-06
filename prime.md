@@ -1,0 +1,2 @@
+I want to finalize this web app. Read /Docs/LLM_ONBOARDING.md. Read the requirements.md for a short description and the last list of errors for the last session. Today I want to verify manually and go through each error I encounter step by step. Wait for my observation. You can already analyse the code base.
+For any fixing task I want to you to generously spawn sub-agents that will help fix the task.
