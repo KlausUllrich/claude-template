@@ -97,6 +97,14 @@ def archive_session():
     else:
         print("\n✓ Cleanup complete - no session data to archive")
     
+    # Trigger post-cleanup git check
+    try:
+        from post_cleanup import post_cleanup
+        post_cleanup()
+    except Exception as e:
+        # Silent fail if post_cleanup not available or errors
+        pass
+    
     return 0
 
 
